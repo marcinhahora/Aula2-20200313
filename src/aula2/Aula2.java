@@ -27,9 +27,9 @@ public class Aula2 {
             inicio--;
         }
         if (qtdDiv==2){
-            System.out.println("É primo");
+            System.out.println("É primo, porque tem dois divisores");
         }else{
-            System.out.println("Não é primo");
+            System.out.println("Não é primo,porque tem mais divisores");
         }
         
     }
