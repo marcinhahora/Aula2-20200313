@@ -22,9 +22,14 @@ public class Aula2 {
         int inicio = numero;
         
         while (inicio >= 1){
-        if (numero%inicio==0)
-            qtdDiv++;
-        inicio--;
+            if (numero%inicio==0)
+                qtdDiv++;
+            inicio--;
+        }
+        if (qtdDiv==2){
+            System.out.println("É primo");
+        }else{
+            System.out.println("Não é primo");
         }
         
     }
