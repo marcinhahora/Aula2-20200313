@@ -21,9 +21,12 @@ public class Aula2 {
         int numero = 7;
         int inicio = numero;
         
-        while (inicio >= 1)
+        while (inicio >= 1){
         if (numero%inicio==0)
             qtdDiv++;
+        inicio--;
+        }
+        
     }
     
 }
