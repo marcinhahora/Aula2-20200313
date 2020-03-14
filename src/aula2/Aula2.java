@@ -13,7 +13,8 @@ public class Aula2 {
 
     /**
      * @param args the command line arguments
-     */
+     *///void não tem retorno
+    //função main pode receber um vetor de strings
     public static void main(String[] args) {
         // TODO code application logic here
     }
